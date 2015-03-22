@@ -5,6 +5,8 @@
 #include <string>
 using namespace std;
 
+//binary search
+
 vector<pair<string, int> > input;
 vector<vector<int> > adj;
 bool visit[100001];
