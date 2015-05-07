@@ -7,9 +7,9 @@ http://www.acmicpc.net/problem/9460
 
  - SOLTION
 	1. sort relative to X : O(N*logN)
-	2. find possible soltion using bisection : O(log(MAX(Y) + |MIN(Y)|)
+	2. find possible soltion using bisection : O( log(MAX(Y) + |MIN(Y)|) * N )
 
- - TIME COMPLEXITY : O(N*logN)
+ - TIME COMPLEXITY : O( log(MAX(Y) + |MIN(Y)|) * N )
 
 */
 
